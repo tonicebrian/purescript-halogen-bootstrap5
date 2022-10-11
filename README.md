@@ -7,7 +7,7 @@ Classes extracted from https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/boo
 ## Installation
 
 ```
-spago install purescript-halogen-bootstrap5
+spago install halogen-bootstrap5
 ```
 
 ## Documentation
