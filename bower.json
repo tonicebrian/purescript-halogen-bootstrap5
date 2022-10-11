@@ -1,0 +1,19 @@
+{
+    "name": "purescript-my-project",
+    "license": [
+        "Apache-2.0"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tonicebrian/purescript-halogen-bootstrap5"
+    },
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "output"
+    ],
+    "dependencies": {
+        "purescript-halogen": "^v7.0.0"
+    }
+}
