@@ -2,12 +2,6 @@ module Halogen.Bootstrap5.Bootstrap where
 
 import Halogen.HTML.Core (ClassName(..))
 
-a :: ClassName
-a = ClassName "a"
-
-abbr :: ClassName
-abbr = ClassName "abbr"
-
 accordion :: ClassName
 accordion = ClassName "accordion"
 
@@ -31,9 +25,6 @@ accordionItem = ClassName "accordion-item"
 
 active :: ClassName
 active = ClassName "active"
-
-address :: ClassName
-address = ClassName "address"
 
 alert :: ClassName
 alert = ClassName "alert"
@@ -395,9 +386,6 @@ alignTextTop = ClassName "align-text-top"
 alignTop :: ClassName
 alignTop = ClassName "align-top"
 
-b :: ClassName
-b = ClassName "b"
-
 badge :: ClassName
 badge = ClassName "badge"
 
@@ -493,9 +481,6 @@ blockquote = ClassName "blockquote"
 
 blockquoteFooter :: ClassName
 blockquoteFooter = ClassName "blockquote-footer"
-
-body :: ClassName
-body = ClassName "body"
 
 border :: ClassName
 border = ClassName "border"
@@ -740,12 +725,6 @@ btnToolbar = ClassName "btn-toolbar"
 btnWarning :: ClassName
 btnWarning = ClassName "btn-warning"
 
-button :: ClassName
-button = ClassName "button"
-
-caption :: ClassName
-caption = ClassName "caption"
-
 captionTop :: ClassName
 captionTop = ClassName "caption-top"
 
@@ -842,9 +821,6 @@ carouselItemStart = ClassName "carousel-item-start"
 clearfix :: ClassName
 clearfix = ClassName "clearfix"
 
-code :: ClassName
-code = ClassName "code"
-
 col :: ClassName
 col = ClassName "col"
 
@@ -895,18 +871,6 @@ colFormLabelLg = ClassName "col-form-label-lg"
 
 colFormLabelSm :: ClassName
 colFormLabelSm = ClassName "col-form-label-sm"
-
-collapse :: ClassName
-collapse = ClassName "collapse"
-
-collapsed :: ClassName
-collapsed = ClassName "collapsed"
-
-collapseHorizontal :: ClassName
-collapseHorizontal = ClassName "collapse-horizontal"
-
-collapsing :: ClassName
-collapsing = ClassName "collapsing"
 
 colLg :: ClassName
 colLg = ClassName "col-lg"
@@ -1034,6 +998,102 @@ colSm9 = ClassName "col-sm-9"
 colSmAuto :: ClassName
 colSmAuto = ClassName "col-sm-auto"
 
+colXl :: ClassName
+colXl = ClassName "col-xl"
+
+colXl1 :: ClassName
+colXl1 = ClassName "col-xl-1"
+
+colXl10 :: ClassName
+colXl10 = ClassName "col-xl-10"
+
+colXl11 :: ClassName
+colXl11 = ClassName "col-xl-11"
+
+colXl12 :: ClassName
+colXl12 = ClassName "col-xl-12"
+
+colXl2 :: ClassName
+colXl2 = ClassName "col-xl-2"
+
+colXl3 :: ClassName
+colXl3 = ClassName "col-xl-3"
+
+colXl4 :: ClassName
+colXl4 = ClassName "col-xl-4"
+
+colXl5 :: ClassName
+colXl5 = ClassName "col-xl-5"
+
+colXl6 :: ClassName
+colXl6 = ClassName "col-xl-6"
+
+colXl7 :: ClassName
+colXl7 = ClassName "col-xl-7"
+
+colXl8 :: ClassName
+colXl8 = ClassName "col-xl-8"
+
+colXl9 :: ClassName
+colXl9 = ClassName "col-xl-9"
+
+colXlAuto :: ClassName
+colXlAuto = ClassName "col-xl-auto"
+
+colXxl :: ClassName
+colXxl = ClassName "col-xxl"
+
+colXxl1 :: ClassName
+colXxl1 = ClassName "col-xxl-1"
+
+colXxl10 :: ClassName
+colXxl10 = ClassName "col-xxl-10"
+
+colXxl11 :: ClassName
+colXxl11 = ClassName "col-xxl-11"
+
+colXxl12 :: ClassName
+colXxl12 = ClassName "col-xxl-12"
+
+colXxl2 :: ClassName
+colXxl2 = ClassName "col-xxl-2"
+
+colXxl3 :: ClassName
+colXxl3 = ClassName "col-xxl-3"
+
+colXxl4 :: ClassName
+colXxl4 = ClassName "col-xxl-4"
+
+colXxl5 :: ClassName
+colXxl5 = ClassName "col-xxl-5"
+
+colXxl6 :: ClassName
+colXxl6 = ClassName "col-xxl-6"
+
+colXxl7 :: ClassName
+colXxl7 = ClassName "col-xxl-7"
+
+colXxl8 :: ClassName
+colXxl8 = ClassName "col-xxl-8"
+
+colXxl9 :: ClassName
+colXxl9 = ClassName "col-xxl-9"
+
+colXxlAuto :: ClassName
+colXxlAuto = ClassName "col-xxl-auto"
+
+collapse :: ClassName
+collapse = ClassName "collapse"
+
+collapseHorizontal :: ClassName
+collapseHorizontal = ClassName "collapse-horizontal"
+
+collapsed :: ClassName
+collapsed = ClassName "collapsed"
+
+collapsing :: ClassName
+collapsing = ClassName "collapsing"
+
 columnGap0 :: ClassName
 columnGap0 = ClassName "column-gap-0"
 
@@ -1142,89 +1202,8 @@ columnGapXxl4 = ClassName "column-gap-xxl-4"
 columnGapXxl5 :: ClassName
 columnGapXxl5 = ClassName "column-gap-xxl-5"
 
-colXl :: ClassName
-colXl = ClassName "col-xl"
-
-colXl1 :: ClassName
-colXl1 = ClassName "col-xl-1"
-
-colXl10 :: ClassName
-colXl10 = ClassName "col-xl-10"
-
-colXl11 :: ClassName
-colXl11 = ClassName "col-xl-11"
-
-colXl12 :: ClassName
-colXl12 = ClassName "col-xl-12"
-
-colXl2 :: ClassName
-colXl2 = ClassName "col-xl-2"
-
-colXl3 :: ClassName
-colXl3 = ClassName "col-xl-3"
-
-colXl4 :: ClassName
-colXl4 = ClassName "col-xl-4"
-
-colXl5 :: ClassName
-colXl5 = ClassName "col-xl-5"
-
-colXl6 :: ClassName
-colXl6 = ClassName "col-xl-6"
-
-colXl7 :: ClassName
-colXl7 = ClassName "col-xl-7"
-
-colXl8 :: ClassName
-colXl8 = ClassName "col-xl-8"
-
-colXl9 :: ClassName
-colXl9 = ClassName "col-xl-9"
-
-colXlAuto :: ClassName
-colXlAuto = ClassName "col-xl-auto"
-
-colXxl :: ClassName
-colXxl = ClassName "col-xxl"
-
-colXxl1 :: ClassName
-colXxl1 = ClassName "col-xxl-1"
-
-colXxl10 :: ClassName
-colXxl10 = ClassName "col-xxl-10"
-
-colXxl11 :: ClassName
-colXxl11 = ClassName "col-xxl-11"
-
-colXxl12 :: ClassName
-colXxl12 = ClassName "col-xxl-12"
-
-colXxl2 :: ClassName
-colXxl2 = ClassName "col-xxl-2"
-
-colXxl3 :: ClassName
-colXxl3 = ClassName "col-xxl-3"
-
-colXxl4 :: ClassName
-colXxl4 = ClassName "col-xxl-4"
-
-colXxl5 :: ClassName
-colXxl5 = ClassName "col-xxl-5"
-
-colXxl6 :: ClassName
-colXxl6 = ClassName "col-xxl-6"
-
-colXxl7 :: ClassName
-colXxl7 = ClassName "col-xxl-7"
-
-colXxl8 :: ClassName
-colXxl8 = ClassName "col-xxl-8"
-
-colXxl9 :: ClassName
-colXxl9 = ClassName "col-xxl-9"
-
-colXxlAuto :: ClassName
-colXxlAuto = ClassName "col-xxl-auto"
+com :: ClassName
+com = ClassName "com"
 
 container :: ClassName
 container = ClassName "container"
@@ -1247,11 +1226,11 @@ containerXl = ClassName "container-xl"
 containerXxl :: ClassName
 containerXxl = ClassName "container-xxl"
 
+css :: ClassName
+css = ClassName "css"
+
 dBlock :: ClassName
 dBlock = ClassName "d-block"
-
-dd :: ClassName
-dd = ClassName "dd"
 
 dFlex :: ClassName
 dFlex = ClassName "d-flex"
@@ -1270,30 +1249,6 @@ dInlineFlex = ClassName "d-inline-flex"
 
 dInlineGrid :: ClassName
 dInlineGrid = ClassName "d-inline-grid"
-
-disabled :: ClassName
-disabled = ClassName "disabled"
-
-display1 :: ClassName
-display1 = ClassName "display-1"
-
-display2 :: ClassName
-display2 = ClassName "display-2"
-
-display3 :: ClassName
-display3 = ClassName "display-3"
-
-display4 :: ClassName
-display4 = ClassName "display-4"
-
-display5 :: ClassName
-display5 = ClassName "display-5"
-
-display6 :: ClassName
-display6 = ClassName "display-6"
-
-dl :: ClassName
-dl = ClassName "dl"
 
 dLgBlock :: ClassName
 dLgBlock = ClassName "d-lg-block"
@@ -1397,6 +1352,135 @@ dPrintTableCell = ClassName "d-print-table-cell"
 dPrintTableRow :: ClassName
 dPrintTableRow = ClassName "d-print-table-row"
 
+dSmBlock :: ClassName
+dSmBlock = ClassName "d-sm-block"
+
+dSmFlex :: ClassName
+dSmFlex = ClassName "d-sm-flex"
+
+dSmGrid :: ClassName
+dSmGrid = ClassName "d-sm-grid"
+
+dSmInline :: ClassName
+dSmInline = ClassName "d-sm-inline"
+
+dSmInlineBlock :: ClassName
+dSmInlineBlock = ClassName "d-sm-inline-block"
+
+dSmInlineFlex :: ClassName
+dSmInlineFlex = ClassName "d-sm-inline-flex"
+
+dSmInlineGrid :: ClassName
+dSmInlineGrid = ClassName "d-sm-inline-grid"
+
+dSmNone :: ClassName
+dSmNone = ClassName "d-sm-none"
+
+dSmTable :: ClassName
+dSmTable = ClassName "d-sm-table"
+
+dSmTableCell :: ClassName
+dSmTableCell = ClassName "d-sm-table-cell"
+
+dSmTableRow :: ClassName
+dSmTableRow = ClassName "d-sm-table-row"
+
+dTable :: ClassName
+dTable = ClassName "d-table"
+
+dTableCell :: ClassName
+dTableCell = ClassName "d-table-cell"
+
+dTableRow :: ClassName
+dTableRow = ClassName "d-table-row"
+
+dXlBlock :: ClassName
+dXlBlock = ClassName "d-xl-block"
+
+dXlFlex :: ClassName
+dXlFlex = ClassName "d-xl-flex"
+
+dXlGrid :: ClassName
+dXlGrid = ClassName "d-xl-grid"
+
+dXlInline :: ClassName
+dXlInline = ClassName "d-xl-inline"
+
+dXlInlineBlock :: ClassName
+dXlInlineBlock = ClassName "d-xl-inline-block"
+
+dXlInlineFlex :: ClassName
+dXlInlineFlex = ClassName "d-xl-inline-flex"
+
+dXlInlineGrid :: ClassName
+dXlInlineGrid = ClassName "d-xl-inline-grid"
+
+dXlNone :: ClassName
+dXlNone = ClassName "d-xl-none"
+
+dXlTable :: ClassName
+dXlTable = ClassName "d-xl-table"
+
+dXlTableCell :: ClassName
+dXlTableCell = ClassName "d-xl-table-cell"
+
+dXlTableRow :: ClassName
+dXlTableRow = ClassName "d-xl-table-row"
+
+dXxlBlock :: ClassName
+dXxlBlock = ClassName "d-xxl-block"
+
+dXxlFlex :: ClassName
+dXxlFlex = ClassName "d-xxl-flex"
+
+dXxlGrid :: ClassName
+dXxlGrid = ClassName "d-xxl-grid"
+
+dXxlInline :: ClassName
+dXxlInline = ClassName "d-xxl-inline"
+
+dXxlInlineBlock :: ClassName
+dXxlInlineBlock = ClassName "d-xxl-inline-block"
+
+dXxlInlineFlex :: ClassName
+dXxlInlineFlex = ClassName "d-xxl-inline-flex"
+
+dXxlInlineGrid :: ClassName
+dXxlInlineGrid = ClassName "d-xxl-inline-grid"
+
+dXxlNone :: ClassName
+dXxlNone = ClassName "d-xxl-none"
+
+dXxlTable :: ClassName
+dXxlTable = ClassName "d-xxl-table"
+
+dXxlTableCell :: ClassName
+dXxlTableCell = ClassName "d-xxl-table-cell"
+
+dXxlTableRow :: ClassName
+dXxlTableRow = ClassName "d-xxl-table-row"
+
+disabled :: ClassName
+disabled = ClassName "disabled"
+
+display1 :: ClassName
+display1 = ClassName "display-1"
+
+display2 :: ClassName
+display2 = ClassName "display-2"
+
+display3 :: ClassName
+display3 = ClassName "display-3"
+
+display4 :: ClassName
+display4 = ClassName "display-4"
+
+display5 :: ClassName
+display5 = ClassName "display-5"
+
+display6 :: ClassName
+display6 = ClassName "display-6"
+
 dropdown :: ClassName
 dropdown = ClassName "dropdown"
 
@@ -1475,117 +1559,6 @@ dropup = ClassName "dropup"
 dropupCenter :: ClassName
 dropupCenter = ClassName "dropup-center"
 
-dSmBlock :: ClassName
-dSmBlock = ClassName "d-sm-block"
-
-dSmFlex :: ClassName
-dSmFlex = ClassName "d-sm-flex"
-
-dSmGrid :: ClassName
-dSmGrid = ClassName "d-sm-grid"
-
-dSmInline :: ClassName
-dSmInline = ClassName "d-sm-inline"
-
-dSmInlineBlock :: ClassName
-dSmInlineBlock = ClassName "d-sm-inline-block"
-
-dSmInlineFlex :: ClassName
-dSmInlineFlex = ClassName "d-sm-inline-flex"
-
-dSmInlineGrid :: ClassName
-dSmInlineGrid = ClassName "d-sm-inline-grid"
-
-dSmNone :: ClassName
-dSmNone = ClassName "d-sm-none"
-
-dSmTable :: ClassName
-dSmTable = ClassName "d-sm-table"
-
-dSmTableCell :: ClassName
-dSmTableCell = ClassName "d-sm-table-cell"
-
-dSmTableRow :: ClassName
-dSmTableRow = ClassName "d-sm-table-row"
-
-dt :: ClassName
-dt = ClassName "dt"
-
-dTable :: ClassName
-dTable = ClassName "d-table"
-
-dTableCell :: ClassName
-dTableCell = ClassName "d-table-cell"
-
-dTableRow :: ClassName
-dTableRow = ClassName "d-table-row"
-
-dXlBlock :: ClassName
-dXlBlock = ClassName "d-xl-block"
-
-dXlFlex :: ClassName
-dXlFlex = ClassName "d-xl-flex"
-
-dXlGrid :: ClassName
-dXlGrid = ClassName "d-xl-grid"
-
-dXlInline :: ClassName
-dXlInline = ClassName "d-xl-inline"
-
-dXlInlineBlock :: ClassName
-dXlInlineBlock = ClassName "d-xl-inline-block"
-
-dXlInlineFlex :: ClassName
-dXlInlineFlex = ClassName "d-xl-inline-flex"
-
-dXlInlineGrid :: ClassName
-dXlInlineGrid = ClassName "d-xl-inline-grid"
-
-dXlNone :: ClassName
-dXlNone = ClassName "d-xl-none"
-
-dXlTable :: ClassName
-dXlTable = ClassName "d-xl-table"
-
-dXlTableCell :: ClassName
-dXlTableCell = ClassName "d-xl-table-cell"
-
-dXlTableRow :: ClassName
-dXlTableRow = ClassName "d-xl-table-row"
-
-dXxlBlock :: ClassName
-dXxlBlock = ClassName "d-xxl-block"
-
-dXxlFlex :: ClassName
-dXxlFlex = ClassName "d-xxl-flex"
-
-dXxlGrid :: ClassName
-dXxlGrid = ClassName "d-xxl-grid"
-
-dXxlInline :: ClassName
-dXxlInline = ClassName "d-xxl-inline"
-
-dXxlInlineBlock :: ClassName
-dXxlInlineBlock = ClassName "d-xxl-inline-block"
-
-dXxlInlineFlex :: ClassName
-dXxlInlineFlex = ClassName "d-xxl-inline-flex"
-
-dXxlInlineGrid :: ClassName
-dXxlInlineGrid = ClassName "d-xxl-inline-grid"
-
-dXxlNone :: ClassName
-dXxlNone = ClassName "d-xxl-none"
-
-dXxlTable :: ClassName
-dXxlTable = ClassName "d-xxl-table"
-
-dXxlTableCell :: ClassName
-dXxlTableCell = ClassName "d-xxl-table-cell"
-
-dXxlTableRow :: ClassName
-dXxlTableRow = ClassName "d-xxl-table-row"
-
 end0 :: ClassName
 end0 = ClassName "end-0"
 
@@ -1597,9 +1570,6 @@ end50 = ClassName "end-50"
 
 fade :: ClassName
 fade = ClassName "fade"
-
-fieldset :: ClassName
-fieldset = ClassName "fieldset"
 
 figure :: ClassName
 figure = ClassName "figure"
@@ -2033,6 +2003,96 @@ g4 = ClassName "g-4"
 g5 :: ClassName
 g5 = ClassName "g-5"
 
+gLg0 :: ClassName
+gLg0 = ClassName "g-lg-0"
+
+gLg1 :: ClassName
+gLg1 = ClassName "g-lg-1"
+
+gLg2 :: ClassName
+gLg2 = ClassName "g-lg-2"
+
+gLg3 :: ClassName
+gLg3 = ClassName "g-lg-3"
+
+gLg4 :: ClassName
+gLg4 = ClassName "g-lg-4"
+
+gLg5 :: ClassName
+gLg5 = ClassName "g-lg-5"
+
+gMd0 :: ClassName
+gMd0 = ClassName "g-md-0"
+
+gMd1 :: ClassName
+gMd1 = ClassName "g-md-1"
+
+gMd2 :: ClassName
+gMd2 = ClassName "g-md-2"
+
+gMd3 :: ClassName
+gMd3 = ClassName "g-md-3"
+
+gMd4 :: ClassName
+gMd4 = ClassName "g-md-4"
+
+gMd5 :: ClassName
+gMd5 = ClassName "g-md-5"
+
+gSm0 :: ClassName
+gSm0 = ClassName "g-sm-0"
+
+gSm1 :: ClassName
+gSm1 = ClassName "g-sm-1"
+
+gSm2 :: ClassName
+gSm2 = ClassName "g-sm-2"
+
+gSm3 :: ClassName
+gSm3 = ClassName "g-sm-3"
+
+gSm4 :: ClassName
+gSm4 = ClassName "g-sm-4"
+
+gSm5 :: ClassName
+gSm5 = ClassName "g-sm-5"
+
+gXl0 :: ClassName
+gXl0 = ClassName "g-xl-0"
+
+gXl1 :: ClassName
+gXl1 = ClassName "g-xl-1"
+
+gXl2 :: ClassName
+gXl2 = ClassName "g-xl-2"
+
+gXl3 :: ClassName
+gXl3 = ClassName "g-xl-3"
+
+gXl4 :: ClassName
+gXl4 = ClassName "g-xl-4"
+
+gXl5 :: ClassName
+gXl5 = ClassName "g-xl-5"
+
+gXxl0 :: ClassName
+gXxl0 = ClassName "g-xxl-0"
+
+gXxl1 :: ClassName
+gXxl1 = ClassName "g-xxl-1"
+
+gXxl2 :: ClassName
+gXxl2 = ClassName "g-xxl-2"
+
+gXxl3 :: ClassName
+gXxl3 = ClassName "g-xxl-3"
+
+gXxl4 :: ClassName
+gXxl4 = ClassName "g-xxl-4"
+
+gXxl5 :: ClassName
+gXxl5 = ClassName "g-xxl-5"
+
 gap0 :: ClassName
 gap0 = ClassName "gap-0"
 
@@ -2141,60 +2201,6 @@ gapXxl4 = ClassName "gap-xxl-4"
 gapXxl5 :: ClassName
 gapXxl5 = ClassName "gap-xxl-5"
 
-gLg0 :: ClassName
-gLg0 = ClassName "g-lg-0"
-
-gLg1 :: ClassName
-gLg1 = ClassName "g-lg-1"
-
-gLg2 :: ClassName
-gLg2 = ClassName "g-lg-2"
-
-gLg3 :: ClassName
-gLg3 = ClassName "g-lg-3"
-
-gLg4 :: ClassName
-gLg4 = ClassName "g-lg-4"
-
-gLg5 :: ClassName
-gLg5 = ClassName "g-lg-5"
-
-gMd0 :: ClassName
-gMd0 = ClassName "g-md-0"
-
-gMd1 :: ClassName
-gMd1 = ClassName "g-md-1"
-
-gMd2 :: ClassName
-gMd2 = ClassName "g-md-2"
-
-gMd3 :: ClassName
-gMd3 = ClassName "g-md-3"
-
-gMd4 :: ClassName
-gMd4 = ClassName "g-md-4"
-
-gMd5 :: ClassName
-gMd5 = ClassName "g-md-5"
-
-gSm0 :: ClassName
-gSm0 = ClassName "g-sm-0"
-
-gSm1 :: ClassName
-gSm1 = ClassName "g-sm-1"
-
-gSm2 :: ClassName
-gSm2 = ClassName "g-sm-2"
-
-gSm3 :: ClassName
-gSm3 = ClassName "g-sm-3"
-
-gSm4 :: ClassName
-gSm4 = ClassName "g-sm-4"
-
-gSm5 :: ClassName
-gSm5 = ClassName "g-sm-5"
-
 gx0 :: ClassName
 gx0 = ClassName "gx-0"
 
@@ -2212,24 +2218,6 @@ gx4 = ClassName "gx-4"
 
 gx5 :: ClassName
 gx5 = ClassName "gx-5"
-
-gXl0 :: ClassName
-gXl0 = ClassName "g-xl-0"
-
-gXl1 :: ClassName
-gXl1 = ClassName "g-xl-1"
-
-gXl2 :: ClassName
-gXl2 = ClassName "g-xl-2"
-
-gXl3 :: ClassName
-gXl3 = ClassName "g-xl-3"
-
-gXl4 :: ClassName
-gXl4 = ClassName "g-xl-4"
-
-gXl5 :: ClassName
-gXl5 = ClassName "g-xl-5"
 
 gxLg0 :: ClassName
 gxLg0 = ClassName "gx-lg-0"
@@ -2285,38 +2273,20 @@ gxSm4 = ClassName "gx-sm-4"
 gxSm5 :: ClassName
 gxSm5 = ClassName "gx-sm-5"
 
-gXxl0 :: ClassName
-gXxl0 = ClassName "g-xxl-0"
-
 gxXl0 :: ClassName
 gxXl0 = ClassName "gx-xl-0"
-
-gXxl1 :: ClassName
-gXxl1 = ClassName "g-xxl-1"
 
 gxXl1 :: ClassName
 gxXl1 = ClassName "gx-xl-1"
 
-gXxl2 :: ClassName
-gXxl2 = ClassName "g-xxl-2"
-
 gxXl2 :: ClassName
 gxXl2 = ClassName "gx-xl-2"
-
-gXxl3 :: ClassName
-gXxl3 = ClassName "g-xxl-3"
 
 gxXl3 :: ClassName
 gxXl3 = ClassName "gx-xl-3"
 
-gXxl4 :: ClassName
-gXxl4 = ClassName "g-xxl-4"
-
 gxXl4 :: ClassName
 gxXl4 = ClassName "gx-xl-4"
-
-gXxl5 :: ClassName
-gXxl5 = ClassName "g-xxl-5"
 
 gxXl5 :: ClassName
 gxXl5 = ClassName "gx-xl-5"
@@ -2447,17 +2417,26 @@ gyXxl4 = ClassName "gy-xxl-4"
 gyXxl5 :: ClassName
 gyXxl5 = ClassName "gy-xxl-5"
 
-h1 :: ClassName
-h1 = ClassName "h1"
-
 h100 :: ClassName
 h100 = ClassName "h-100"
 
-h2 :: ClassName
-h2 = ClassName "h2"
-
 h25 :: ClassName
 h25 = ClassName "h-25"
+
+h50 :: ClassName
+h50 = ClassName "h-50"
+
+h75 :: ClassName
+h75 = ClassName "h-75"
+
+hAuto :: ClassName
+hAuto = ClassName "h-auto"
+
+h1 :: ClassName
+h1 = ClassName "h1"
+
+h2 :: ClassName
+h2 = ClassName "h2"
 
 h3 :: ClassName
 h3 = ClassName "h3"
@@ -2468,26 +2447,14 @@ h4 = ClassName "h4"
 h5 :: ClassName
 h5 = ClassName "h5"
 
-h50 :: ClassName
-h50 = ClassName "h-50"
-
 h6 :: ClassName
 h6 = ClassName "h6"
-
-h75 :: ClassName
-h75 = ClassName "h-75"
 
 hasValidation :: ClassName
 hasValidation = ClassName "has-validation"
 
-hAuto :: ClassName
-hAuto = ClassName "h-auto"
-
 hiding :: ClassName
 hiding = ClassName "hiding"
-
-hr :: ClassName
-hr = ClassName "hr"
 
 hstack :: ClassName
 hstack = ClassName "hstack"
@@ -2498,12 +2465,6 @@ iconLink = ClassName "icon-link"
 iconLinkHover :: ClassName
 iconLinkHover = ClassName "icon-link-hover"
 
-iframe :: ClassName
-iframe = ClassName "iframe"
-
-img :: ClassName
-img = ClassName "img"
-
 imgFluid :: ClassName
 imgFluid = ClassName "img-fluid"
 
@@ -2512,9 +2473,6 @@ imgThumbnail = ClassName "img-thumbnail"
 
 initialism :: ClassName
 initialism = ClassName "initialism"
-
-input :: ClassName
-input = ClassName "input"
 
 inputGroup :: ClassName
 inputGroup = ClassName "input-group"
@@ -2651,17 +2609,8 @@ justifyContentXxlEvenly = ClassName "justify-content-xxl-evenly"
 justifyContentXxlStart :: ClassName
 justifyContentXxlStart = ClassName "justify-content-xxl-start"
 
-kbd :: ClassName
-kbd = ClassName "kbd"
-
-label :: ClassName
-label = ClassName "label"
-
 lead :: ClassName
 lead = ClassName "lead"
-
-legend :: ClassName
-legend = ClassName "legend"
 
 lh1 :: ClassName
 lh1 = ClassName "lh-1"
@@ -2711,14 +2660,14 @@ linkOffset3Hover = ClassName "link-offset-3-hover"
 linkOpacity10 :: ClassName
 linkOpacity10 = ClassName "link-opacity-10"
 
+linkOpacity10Hover :: ClassName
+linkOpacity10Hover = ClassName "link-opacity-10-hover"
+
 linkOpacity100 :: ClassName
 linkOpacity100 = ClassName "link-opacity-100"
 
 linkOpacity100Hover :: ClassName
 linkOpacity100Hover = ClassName "link-opacity-100-hover"
-
-linkOpacity10Hover :: ClassName
-linkOpacity10Hover = ClassName "link-opacity-10-hover"
 
 linkOpacity25 :: ClassName
 linkOpacity25 = ClassName "link-opacity-25"
@@ -2771,14 +2720,14 @@ linkUnderlineOpacity0Hover = ClassName "link-underline-opacity-0-hover"
 linkUnderlineOpacity10 :: ClassName
 linkUnderlineOpacity10 = ClassName "link-underline-opacity-10"
 
+linkUnderlineOpacity10Hover :: ClassName
+linkUnderlineOpacity10Hover = ClassName "link-underline-opacity-10-hover"
+
 linkUnderlineOpacity100 :: ClassName
 linkUnderlineOpacity100 = ClassName "link-underline-opacity-100"
 
 linkUnderlineOpacity100Hover :: ClassName
 linkUnderlineOpacity100Hover = ClassName "link-underline-opacity-100-hover"
-
-linkUnderlineOpacity10Hover :: ClassName
-linkUnderlineOpacity10Hover = ClassName "link-underline-opacity-10-hover"
 
 linkUnderlineOpacity25 :: ClassName
 linkUnderlineOpacity25 = ClassName "link-underline-opacity-25"
@@ -2897,11 +2846,119 @@ m4 = ClassName "m-4"
 m5 :: ClassName
 m5 = ClassName "m-5"
 
-mark :: ClassName
-mark = ClassName "mark"
-
 mAuto :: ClassName
 mAuto = ClassName "m-auto"
+
+mLg0 :: ClassName
+mLg0 = ClassName "m-lg-0"
+
+mLg1 :: ClassName
+mLg1 = ClassName "m-lg-1"
+
+mLg2 :: ClassName
+mLg2 = ClassName "m-lg-2"
+
+mLg3 :: ClassName
+mLg3 = ClassName "m-lg-3"
+
+mLg4 :: ClassName
+mLg4 = ClassName "m-lg-4"
+
+mLg5 :: ClassName
+mLg5 = ClassName "m-lg-5"
+
+mLgAuto :: ClassName
+mLgAuto = ClassName "m-lg-auto"
+
+mMd0 :: ClassName
+mMd0 = ClassName "m-md-0"
+
+mMd1 :: ClassName
+mMd1 = ClassName "m-md-1"
+
+mMd2 :: ClassName
+mMd2 = ClassName "m-md-2"
+
+mMd3 :: ClassName
+mMd3 = ClassName "m-md-3"
+
+mMd4 :: ClassName
+mMd4 = ClassName "m-md-4"
+
+mMd5 :: ClassName
+mMd5 = ClassName "m-md-5"
+
+mMdAuto :: ClassName
+mMdAuto = ClassName "m-md-auto"
+
+mSm0 :: ClassName
+mSm0 = ClassName "m-sm-0"
+
+mSm1 :: ClassName
+mSm1 = ClassName "m-sm-1"
+
+mSm2 :: ClassName
+mSm2 = ClassName "m-sm-2"
+
+mSm3 :: ClassName
+mSm3 = ClassName "m-sm-3"
+
+mSm4 :: ClassName
+mSm4 = ClassName "m-sm-4"
+
+mSm5 :: ClassName
+mSm5 = ClassName "m-sm-5"
+
+mSmAuto :: ClassName
+mSmAuto = ClassName "m-sm-auto"
+
+mXl0 :: ClassName
+mXl0 = ClassName "m-xl-0"
+
+mXl1 :: ClassName
+mXl1 = ClassName "m-xl-1"
+
+mXl2 :: ClassName
+mXl2 = ClassName "m-xl-2"
+
+mXl3 :: ClassName
+mXl3 = ClassName "m-xl-3"
+
+mXl4 :: ClassName
+mXl4 = ClassName "m-xl-4"
+
+mXl5 :: ClassName
+mXl5 = ClassName "m-xl-5"
+
+mXlAuto :: ClassName
+mXlAuto = ClassName "m-xl-auto"
+
+mXxl0 :: ClassName
+mXxl0 = ClassName "m-xxl-0"
+
+mXxl1 :: ClassName
+mXxl1 = ClassName "m-xxl-1"
+
+mXxl2 :: ClassName
+mXxl2 = ClassName "m-xxl-2"
+
+mXxl3 :: ClassName
+mXxl3 = ClassName "m-xxl-3"
+
+mXxl4 :: ClassName
+mXxl4 = ClassName "m-xxl-4"
+
+mXxl5 :: ClassName
+mXxl5 = ClassName "m-xxl-5"
+
+mXxlAuto :: ClassName
+mXxlAuto = ClassName "m-xxl-auto"
+
+map :: ClassName
+map = ClassName "map"
+
+mark :: ClassName
+mark = ClassName "mark"
 
 mb0 :: ClassName
 mb0 = ClassName "mb-0"
@@ -3158,53 +3215,14 @@ meXxlAuto = ClassName "me-xxl-auto"
 mh100 :: ClassName
 mh100 = ClassName "mh-100"
 
+min :: ClassName
+min = ClassName "min"
+
 minVh100 :: ClassName
 minVh100 = ClassName "min-vh-100"
 
 minVw100 :: ClassName
 minVw100 = ClassName "min-vw-100"
-
-mLg0 :: ClassName
-mLg0 = ClassName "m-lg-0"
-
-mLg1 :: ClassName
-mLg1 = ClassName "m-lg-1"
-
-mLg2 :: ClassName
-mLg2 = ClassName "m-lg-2"
-
-mLg3 :: ClassName
-mLg3 = ClassName "m-lg-3"
-
-mLg4 :: ClassName
-mLg4 = ClassName "m-lg-4"
-
-mLg5 :: ClassName
-mLg5 = ClassName "m-lg-5"
-
-mLgAuto :: ClassName
-mLgAuto = ClassName "m-lg-auto"
-
-mMd0 :: ClassName
-mMd0 = ClassName "m-md-0"
-
-mMd1 :: ClassName
-mMd1 = ClassName "m-md-1"
-
-mMd2 :: ClassName
-mMd2 = ClassName "m-md-2"
-
-mMd3 :: ClassName
-mMd3 = ClassName "m-md-3"
-
-mMd4 :: ClassName
-mMd4 = ClassName "m-md-4"
-
-mMd5 :: ClassName
-mMd5 = ClassName "m-md-5"
-
-mMdAuto :: ClassName
-mMdAuto = ClassName "m-md-auto"
 
 modal :: ClassName
 modal = ClassName "modal"
@@ -3307,27 +3325,6 @@ msLg5 = ClassName "ms-lg-5"
 
 msLgAuto :: ClassName
 msLgAuto = ClassName "ms-lg-auto"
-
-mSm0 :: ClassName
-mSm0 = ClassName "m-sm-0"
-
-mSm1 :: ClassName
-mSm1 = ClassName "m-sm-1"
-
-mSm2 :: ClassName
-mSm2 = ClassName "m-sm-2"
-
-mSm3 :: ClassName
-mSm3 = ClassName "m-sm-3"
-
-mSm4 :: ClassName
-mSm4 = ClassName "m-sm-4"
-
-mSm5 :: ClassName
-mSm5 = ClassName "m-sm-5"
-
-mSmAuto :: ClassName
-mSmAuto = ClassName "m-sm-auto"
 
 msMd0 :: ClassName
 msMd0 = ClassName "ms-md-0"
@@ -3563,27 +3560,6 @@ mx5 = ClassName "mx-5"
 mxAuto :: ClassName
 mxAuto = ClassName "mx-auto"
 
-mXl0 :: ClassName
-mXl0 = ClassName "m-xl-0"
-
-mXl1 :: ClassName
-mXl1 = ClassName "m-xl-1"
-
-mXl2 :: ClassName
-mXl2 = ClassName "m-xl-2"
-
-mXl3 :: ClassName
-mXl3 = ClassName "m-xl-3"
-
-mXl4 :: ClassName
-mXl4 = ClassName "m-xl-4"
-
-mXl5 :: ClassName
-mXl5 = ClassName "m-xl-5"
-
-mXlAuto :: ClassName
-mXlAuto = ClassName "m-xl-auto"
-
 mxLg0 :: ClassName
 mxLg0 = ClassName "mx-lg-0"
 
@@ -3647,44 +3623,23 @@ mxSm5 = ClassName "mx-sm-5"
 mxSmAuto :: ClassName
 mxSmAuto = ClassName "mx-sm-auto"
 
-mXxl0 :: ClassName
-mXxl0 = ClassName "m-xxl-0"
-
 mxXl0 :: ClassName
 mxXl0 = ClassName "mx-xl-0"
-
-mXxl1 :: ClassName
-mXxl1 = ClassName "m-xxl-1"
 
 mxXl1 :: ClassName
 mxXl1 = ClassName "mx-xl-1"
 
-mXxl2 :: ClassName
-mXxl2 = ClassName "m-xxl-2"
-
 mxXl2 :: ClassName
 mxXl2 = ClassName "mx-xl-2"
-
-mXxl3 :: ClassName
-mXxl3 = ClassName "m-xxl-3"
 
 mxXl3 :: ClassName
 mxXl3 = ClassName "mx-xl-3"
 
-mXxl4 :: ClassName
-mXxl4 = ClassName "m-xxl-4"
-
 mxXl4 :: ClassName
 mxXl4 = ClassName "mx-xl-4"
 
-mXxl5 :: ClassName
-mXxl5 = ClassName "m-xxl-5"
-
 mxXl5 :: ClassName
 mxXl5 = ClassName "mx-xl-5"
-
-mXxlAuto :: ClassName
-mXxlAuto = ClassName "m-xxl-auto"
 
 mxXlAuto :: ClassName
 mxXlAuto = ClassName "mx-xl-auto"
@@ -3839,6 +3794,27 @@ myXxlAuto = ClassName "my-xxl-auto"
 nav :: ClassName
 nav = ClassName "nav"
 
+navFill :: ClassName
+navFill = ClassName "nav-fill"
+
+navItem :: ClassName
+navItem = ClassName "nav-item"
+
+navJustified :: ClassName
+navJustified = ClassName "nav-justified"
+
+navLink :: ClassName
+navLink = ClassName "nav-link"
+
+navPills :: ClassName
+navPills = ClassName "nav-pills"
+
+navTabs :: ClassName
+navTabs = ClassName "nav-tabs"
+
+navUnderline :: ClassName
+navUnderline = ClassName "nav-underline"
+
 navbar :: ClassName
 navbar = ClassName "navbar"
 
@@ -3883,27 +3859,6 @@ navbarToggler = ClassName "navbar-toggler"
 
 navbarTogglerIcon :: ClassName
 navbarTogglerIcon = ClassName "navbar-toggler-icon"
-
-navFill :: ClassName
-navFill = ClassName "nav-fill"
-
-navItem :: ClassName
-navItem = ClassName "nav-item"
-
-navJustified :: ClassName
-navJustified = ClassName "nav-justified"
-
-navLink :: ClassName
-navLink = ClassName "nav-link"
-
-navPills :: ClassName
-navPills = ClassName "nav-pills"
-
-navTabs :: ClassName
-navTabs = ClassName "nav-tabs"
-
-navUnderline :: ClassName
-navUnderline = ClassName "nav-underline"
 
 objectFitContain :: ClassName
 objectFitContain = ClassName "object-fit-contain"
@@ -4250,9 +4205,6 @@ offsetXxl8 = ClassName "offset-xxl-8"
 offsetXxl9 :: ClassName
 offsetXxl9 = ClassName "offset-xxl-9"
 
-ol :: ClassName
-ol = ClassName "ol"
-
 opacity0 :: ClassName
 opacity0 = ClassName "opacity-0"
 
@@ -4267,9 +4219,6 @@ opacity50 = ClassName "opacity-50"
 
 opacity75 :: ClassName
 opacity75 = ClassName "opacity-75"
-
-optgroup :: ClassName
-optgroup = ClassName "optgroup"
 
 order0 :: ClassName
 order0 = ClassName "order-0"
@@ -4415,8 +4364,8 @@ orderXxlFirst = ClassName "order-xxl-first"
 orderXxlLast :: ClassName
 orderXxlLast = ClassName "order-xxl-last"
 
-output :: ClassName
-output = ClassName "output"
+org :: ClassName
+org = ClassName "org"
 
 overflowAuto :: ClassName
 overflowAuto = ClassName "overflow-auto"
@@ -4454,9 +4403,6 @@ overflowYScroll = ClassName "overflow-y-scroll"
 overflowYVisible :: ClassName
 overflowYVisible = ClassName "overflow-y-visible"
 
-p :: ClassName
-p = ClassName "p"
-
 p0 :: ClassName
 p0 = ClassName "p-0"
 
@@ -4474,6 +4420,96 @@ p4 = ClassName "p-4"
 
 p5 :: ClassName
 p5 = ClassName "p-5"
+
+pLg0 :: ClassName
+pLg0 = ClassName "p-lg-0"
+
+pLg1 :: ClassName
+pLg1 = ClassName "p-lg-1"
+
+pLg2 :: ClassName
+pLg2 = ClassName "p-lg-2"
+
+pLg3 :: ClassName
+pLg3 = ClassName "p-lg-3"
+
+pLg4 :: ClassName
+pLg4 = ClassName "p-lg-4"
+
+pLg5 :: ClassName
+pLg5 = ClassName "p-lg-5"
+
+pMd0 :: ClassName
+pMd0 = ClassName "p-md-0"
+
+pMd1 :: ClassName
+pMd1 = ClassName "p-md-1"
+
+pMd2 :: ClassName
+pMd2 = ClassName "p-md-2"
+
+pMd3 :: ClassName
+pMd3 = ClassName "p-md-3"
+
+pMd4 :: ClassName
+pMd4 = ClassName "p-md-4"
+
+pMd5 :: ClassName
+pMd5 = ClassName "p-md-5"
+
+pSm0 :: ClassName
+pSm0 = ClassName "p-sm-0"
+
+pSm1 :: ClassName
+pSm1 = ClassName "p-sm-1"
+
+pSm2 :: ClassName
+pSm2 = ClassName "p-sm-2"
+
+pSm3 :: ClassName
+pSm3 = ClassName "p-sm-3"
+
+pSm4 :: ClassName
+pSm4 = ClassName "p-sm-4"
+
+pSm5 :: ClassName
+pSm5 = ClassName "p-sm-5"
+
+pXl0 :: ClassName
+pXl0 = ClassName "p-xl-0"
+
+pXl1 :: ClassName
+pXl1 = ClassName "p-xl-1"
+
+pXl2 :: ClassName
+pXl2 = ClassName "p-xl-2"
+
+pXl3 :: ClassName
+pXl3 = ClassName "p-xl-3"
+
+pXl4 :: ClassName
+pXl4 = ClassName "p-xl-4"
+
+pXl5 :: ClassName
+pXl5 = ClassName "p-xl-5"
+
+pXxl0 :: ClassName
+pXxl0 = ClassName "p-xxl-0"
+
+pXxl1 :: ClassName
+pXxl1 = ClassName "p-xxl-1"
+
+pXxl2 :: ClassName
+pXxl2 = ClassName "p-xxl-2"
+
+pXxl3 :: ClassName
+pXxl3 = ClassName "p-xxl-3"
+
+pXxl4 :: ClassName
+pXxl4 = ClassName "p-xxl-4"
+
+pXxl5 :: ClassName
+pXxl5 = ClassName "p-xxl-5"
 
 pageItem :: ClassName
 pageItem = ClassName "page-item"
@@ -4730,42 +4766,6 @@ placeholderWave = ClassName "placeholder-wave"
 placeholderXs :: ClassName
 placeholderXs = ClassName "placeholder-xs"
 
-pLg0 :: ClassName
-pLg0 = ClassName "p-lg-0"
-
-pLg1 :: ClassName
-pLg1 = ClassName "p-lg-1"
-
-pLg2 :: ClassName
-pLg2 = ClassName "p-lg-2"
-
-pLg3 :: ClassName
-pLg3 = ClassName "p-lg-3"
-
-pLg4 :: ClassName
-pLg4 = ClassName "p-lg-4"
-
-pLg5 :: ClassName
-pLg5 = ClassName "p-lg-5"
-
-pMd0 :: ClassName
-pMd0 = ClassName "p-md-0"
-
-pMd1 :: ClassName
-pMd1 = ClassName "p-md-1"
-
-pMd2 :: ClassName
-pMd2 = ClassName "p-md-2"
-
-pMd3 :: ClassName
-pMd3 = ClassName "p-md-3"
-
-pMd4 :: ClassName
-pMd4 = ClassName "p-md-4"
-
-pMd5 :: ClassName
-pMd5 = ClassName "p-md-5"
-
 pointerEvent :: ClassName
 pointerEvent = ClassName "pointer-event"
 
@@ -4795,9 +4795,6 @@ positionStatic = ClassName "position-static"
 
 positionSticky :: ClassName
 positionSticky = ClassName "position-sticky"
-
-pre :: ClassName
-pre = ClassName "pre"
 
 progress :: ClassName
 progress = ClassName "progress"
@@ -4849,24 +4846,6 @@ psLg4 = ClassName "ps-lg-4"
 
 psLg5 :: ClassName
 psLg5 = ClassName "ps-lg-5"
-
-pSm0 :: ClassName
-pSm0 = ClassName "p-sm-0"
-
-pSm1 :: ClassName
-pSm1 = ClassName "p-sm-1"
-
-pSm2 :: ClassName
-pSm2 = ClassName "p-sm-2"
-
-pSm3 :: ClassName
-pSm3 = ClassName "p-sm-3"
-
-pSm4 :: ClassName
-pSm4 = ClassName "p-sm-4"
-
-pSm5 :: ClassName
-pSm5 = ClassName "p-sm-5"
 
 psMd0 :: ClassName
 psMd0 = ClassName "ps-md-0"
@@ -5066,24 +5045,6 @@ px4 = ClassName "px-4"
 px5 :: ClassName
 px5 = ClassName "px-5"
 
-pXl0 :: ClassName
-pXl0 = ClassName "p-xl-0"
-
-pXl1 :: ClassName
-pXl1 = ClassName "p-xl-1"
-
-pXl2 :: ClassName
-pXl2 = ClassName "p-xl-2"
-
-pXl3 :: ClassName
-pXl3 = ClassName "p-xl-3"
-
-pXl4 :: ClassName
-pXl4 = ClassName "p-xl-4"
-
-pXl5 :: ClassName
-pXl5 = ClassName "p-xl-5"
-
 pxLg0 :: ClassName
 pxLg0 = ClassName "px-lg-0"
 
@@ -5138,38 +5099,20 @@ pxSm4 = ClassName "px-sm-4"
 pxSm5 :: ClassName
 pxSm5 = ClassName "px-sm-5"
 
-pXxl0 :: ClassName
-pXxl0 = ClassName "p-xxl-0"
-
 pxXl0 :: ClassName
 pxXl0 = ClassName "px-xl-0"
-
-pXxl1 :: ClassName
-pXxl1 = ClassName "p-xxl-1"
 
 pxXl1 :: ClassName
 pxXl1 = ClassName "px-xl-1"
 
-pXxl2 :: ClassName
-pXxl2 = ClassName "p-xxl-2"
-
 pxXl2 :: ClassName
 pxXl2 = ClassName "px-xl-2"
-
-pXxl3 :: ClassName
-pXxl3 = ClassName "p-xxl-3"
 
 pxXl3 :: ClassName
 pxXl3 = ClassName "px-xl-3"
 
-pXxl4 :: ClassName
-pXxl4 = ClassName "p-xxl-4"
-
 pxXl4 :: ClassName
 pxXl4 = ClassName "px-xl-4"
-
-pXxl5 :: ClassName
-pXxl5 = ClassName "p-xxl-5"
 
 pxXl5 :: ClassName
 pxXl5 = ClassName "px-xl-5"
@@ -5687,12 +5630,6 @@ rowGapXxl4 = ClassName "row-gap-xxl-4"
 rowGapXxl5 :: ClassName
 rowGapXxl5 = ClassName "row-gap-xxl-5"
 
-samp :: ClassName
-samp = ClassName "samp"
-
-select :: ClassName
-select = ClassName "select"
-
 shadow :: ClassName
 shadow = ClassName "shadow"
 
@@ -5774,23 +5711,11 @@ stickyXxlTop = ClassName "sticky-xxl-top"
 stretchedLink :: ClassName
 stretchedLink = ClassName "stretched-link"
 
-strong :: ClassName
-strong = ClassName "strong"
-
-sub :: ClassName
-sub = ClassName "sub"
-
-summary :: ClassName
-summary = ClassName "summary"
-
-sup :: ClassName
-sup = ClassName "sup"
-
-svg :: ClassName
-svg = ClassName "svg"
-
 tabContent :: ClassName
 tabContent = ClassName "tab-content"
+
+tabPane :: ClassName
+tabPane = ClassName "tab-pane"
 
 table :: ClassName
 table = ClassName "table"
@@ -5860,18 +5785,6 @@ tableSuccess = ClassName "table-success"
 
 tableWarning :: ClassName
 tableWarning = ClassName "table-warning"
-
-tabPane :: ClassName
-tabPane = ClassName "tab-pane"
-
-tbody :: ClassName
-tbody = ClassName "tbody"
-
-td :: ClassName
-td = ClassName "td"
-
-textarea :: ClassName
-textarea = ClassName "textarea"
 
 textBgDanger :: ClassName
 textBgDanger = ClassName "text-bg-danger"
@@ -6071,15 +5984,6 @@ textXxlEnd = ClassName "text-xxl-end"
 textXxlStart :: ClassName
 textXxlStart = ClassName "text-xxl-start"
 
-tfoot :: ClassName
-tfoot = ClassName "tfoot"
-
-th :: ClassName
-th = ClassName "th"
-
-thead :: ClassName
-thead = ClassName "thead"
-
 toast :: ClassName
 toast = ClassName "toast"
 
@@ -6110,9 +6014,6 @@ top100 = ClassName "top-100"
 top50 :: ClassName
 top50 = ClassName "top-50"
 
-tr :: ClassName
-tr = ClassName "tr"
-
 translateMiddle :: ClassName
 translateMiddle = ClassName "translate-middle"
 
@@ -6121,9 +6022,6 @@ translateMiddleX = ClassName "translate-middle-x"
 
 translateMiddleY :: ClassName
 translateMiddleY = ClassName "translate-middle-y"
-
-ul :: ClassName
-ul = ClassName "ul"
 
 userSelectAll :: ClassName
 userSelectAll = ClassName "user-select-all"
@@ -6173,11 +6071,14 @@ w50 = ClassName "w-50"
 w75 :: ClassName
 w75 = ClassName "w-75"
 
-wasValidated :: ClassName
-wasValidated = ClassName "was-validated"
-
 wAuto :: ClassName
 wAuto = ClassName "w-auto"
+
+w3 :: ClassName
+w3 = ClassName "w3"
+
+wasValidated :: ClassName
+wasValidated = ClassName "was-validated"
 
 z0 :: ClassName
 z0 = ClassName "z-0"

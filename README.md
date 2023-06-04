@@ -16,11 +16,10 @@ Module documentation is [published on Pursuit](http://pursuit.purescript.org/pac
 
 ## Generate
 
-1. Install `perl`
-2. If necessary, update `generator/bootstrap*.css` files with **formatted CSS**.
-3. Run
+1. Install `perl`.
+1. If necessary, update `css/bootstrap*.css` files.
+1. Run the script.
 
    ```console
-   cd generator
-   ./run-generator.sh
+   perl gen.pl
    ```
