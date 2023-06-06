@@ -1,4 +1,4 @@
-{ name = "my-project"
+{ name = "purescript-halogen-bootstrap5"
 , dependencies = [ "halogen" ]
 , packages = ./packages.dhall
 , sources = [ "src/**/*.purs" ]
