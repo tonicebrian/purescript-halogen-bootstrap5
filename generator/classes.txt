@@ -159,6 +159,7 @@ bg-transparent
 bg-warning
 bg-warning-subtle
 bg-white
+bi
 blockquote
 blockquote-footer
 body
@@ -1936,6 +1937,7 @@ table-striped
 table-striped-columns
 table-success
 table-warning
+tab-pane
 tbody
 td
 textarea

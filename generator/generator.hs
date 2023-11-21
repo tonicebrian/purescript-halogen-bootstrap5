@@ -1,5 +1,5 @@
 #!/usr/bin/env stack
--- stack --resolver lts-18.28 script --package casing
+-- stack --resolver lts-21.14 script --package casing
 
 import Text.Casing
 

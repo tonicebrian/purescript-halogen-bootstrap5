@@ -9,6 +9,7 @@ perl -i -pe 's/^\s*\.(.+)/\1/g' $CLASSES_TXT
 grep -E '^\w' $CLASSES_TXT >aux.txt
 mv aux.txt $CLASSES_TXT
 perl -i -pe 's/,/\n/g' $CLASSES_TXT
+perl -i -pe 's/>\./\n/g' $CLASSES_TXT
 perl -i -pe 's/ \./\n/g' $CLASSES_TXT
 perl -i -pe 's/^\.//g' $CLASSES_TXT
 perl -i -pe 's/([^ :>+[.~]+).*/\1/g' $CLASSES_TXT

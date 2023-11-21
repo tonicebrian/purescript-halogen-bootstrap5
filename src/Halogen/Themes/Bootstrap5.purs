@@ -485,6 +485,9 @@ bgWarningSubtle = ClassName "bg-warning-subtle"
 bgWhite :: ClassName
 bgWhite = ClassName "bg-white"
 
+bi :: ClassName
+bi = ClassName "bi"
+
 blockquote :: ClassName
 blockquote = ClassName "blockquote"
 
@@ -5815,6 +5818,9 @@ tableSuccess = ClassName "table-success"
 
 tableWarning :: ClassName
 tableWarning = ClassName "table-warning"
+
+tabPane :: ClassName
+tabPane = ClassName "tab-pane"
 
 tbody :: ClassName
 tbody = ClassName "tbody"
