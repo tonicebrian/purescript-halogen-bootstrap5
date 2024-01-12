@@ -14,6 +14,7 @@ perl -i -pe 's/ \./\n/g' $CLASSES_TXT
 perl -i -pe 's/^\.//g' $CLASSES_TXT
 perl -i -pe 's/([^ :>+[.~]+).*/\1/g' $CLASSES_TXT
 sed -i '/^\w/!d' $CLASSES_TXT
+sed -i '/^button$/d' $CLASSES_TXT
 sort $CLASSES_TXT | uniq >aux.txt
 mv aux.txt $CLASSES_TXT
 

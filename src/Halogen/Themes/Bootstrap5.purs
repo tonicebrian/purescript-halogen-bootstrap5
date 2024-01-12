@@ -740,9 +740,6 @@ btnToolbar = ClassName "btn-toolbar"
 btnWarning :: ClassName
 btnWarning = ClassName "btn-warning"
 
-button :: ClassName
-button = ClassName "button"
-
 caption :: ClassName
 caption = ClassName "caption"
 
